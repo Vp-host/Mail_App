@@ -6,6 +6,8 @@ from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 from email.mime.base import MIMEBase
 from email import encoders
+from io import BytesIO
+from io import StringIO
 
 def validate(from_mailid, mailpassword, to_mailid, mailsubject, mailbody):
     res = True
