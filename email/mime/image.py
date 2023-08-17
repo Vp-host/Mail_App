@@ -49,7 +49,7 @@ _rules = []
 # Originally from the imghdr module.
 def _what(data):
     for rule in _rules:
-        if res = rule(data):
+        if res == rule(data):
             return res
     else:
         return None
