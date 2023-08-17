@@ -163,4 +163,4 @@ def main(page: ft.Page):
         cont
     )
 
-ft.app(target=main, port="0.0.0.0")
+ft.app(port=8550, target=main, view=ft.WEB_BROWSER)
