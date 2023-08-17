@@ -163,4 +163,4 @@ def main(page: ft.Page):
         cont
     )
 
-ft.app(target=main)
+ft.app(target=main, port=0.0.0.0)
